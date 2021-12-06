@@ -1,0 +1,2 @@
+dashgo_driver:dashgo_tools:exp1_pkg:exp2_pkg:exp3_pkg:exp4_pkg:main_controller:realsense-ros/realsense2_camera:realsense-ros/realsense2_description:robot_pose_ekf:yocs_velocity_smoother
+-DCATKIN_DEVEL_PREFIX=/home/demphi/ros/dip_ws/devel -DCMAKE_INSTALL_PREFIX=/home/demphi/ros/dip_ws/install -G Unix Makefiles

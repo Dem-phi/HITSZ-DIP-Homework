@@ -1,0 +1,8 @@
+prefix=/home/demphi/ros/dip_ws/devel
+
+Name: exp1_pkg
+Description: Description of exp1_pkg
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,22 @@
+<launch>
+
+    <include file="$(find dashgo_driver)/launch/driver_imu.launch"/>
+
+<!--    <node name="paddle_ros" type="mainv3.py" pkg="main_controller"/>-->
+
+    <node name="final" pkg="main_controller" type="final" output="screen"/>
+
+    <node name="rviz_visualize" pkg="main_controller" type="rviz_visualize" output="screen"/>
+
+    <node name="tf_map_to_world" pkg="tf"
+          type="static_transform_publisher" output="screen"
+          args="0.0 0.0 0.0 0.0 0.0 0.0 map world 100"/>
+    <node name="rviz" pkg="rviz" type="rviz"
+          args="-d $(find main_controller)/config/dip_rviz_config.rviz"/>
+
+<!--
+    <node name="remap" pkg="main_controller"
+          type="remap" output="screen"/>
+-->
+
+</launch>

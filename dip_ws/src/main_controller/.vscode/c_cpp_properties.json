@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/demphi/ros/dip_ws/devel/include/**",
+        "/home/demphi/GitHub/livox_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/demphi/ros/dip_ws/src/exp1_pkg/include/**",
+        "/home/demphi/ros/dip_ws/src/exp2_pkg/include/**",
+        "/home/demphi/ros/dip_ws/src/exp3_pkg/include/**",
+        "/home/demphi/ros/dip_ws/src/exp4_pkg/include/**",
+        "/home/demphi/ros/dip_ws/src/main_controller/include/**",
+        "/home/demphi/ros/dip_ws/src/realsense-ros/realsense2_camera/include/**",
+        "/home/demphi/ros/dip_ws/src/robot_pose_ekf/include/**",
+        "/home/demphi/ros/dip_ws/src/yocs_velocity_smoother/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

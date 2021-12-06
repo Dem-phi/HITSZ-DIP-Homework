@@ -1,0 +1,26 @@
+#left and right camera parameter are same
+image_width: 672
+image_height: 376
+camera_name: zed
+camera_matrix:
+  rows: 3
+  cols: 3
+  data: [335.2295227050781, 0.0, 323.5201110839844,
+         0.0, 335.2295227050781, 190.40951538085938,
+         0.0, 0.0, 1.0]
+distortion_model: plumb_bob
+distortion_coefficients:
+  rows: 1
+  cols: 5
+  data: [0.0, 0.0, 0.0, 0.0, 0.0]
+rectification_matrix:
+  rows: 3
+  cols: 3
+  data: [1, 0, 0, 0, 1, 0, 0, 0, 1]
+#正交投影矩阵
+projection_matrix:
+  rows: 3
+  cols: 4
+  data: [335.2295227050781, 0.0, 323.5201110839844, 0.0,
+         0.0, 335.2295227050781, 190.40951538085938, 0.0,
+         0.0, 0.0, 1.0, 0.0]

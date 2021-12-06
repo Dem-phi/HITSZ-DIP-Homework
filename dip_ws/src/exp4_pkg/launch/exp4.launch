@@ -1,0 +1,6 @@
+<launch>
+    <node name="Color" pkg="exp4_pkg"
+          type="Color" output="screen"/>
+    <node name="exp4" pkg="exp4_pkg"
+          type="exp4" output="screen"/>
+</launch>
